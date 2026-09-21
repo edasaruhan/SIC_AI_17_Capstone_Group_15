@@ -1,0 +1,7 @@
+.venv/
+.env
+__pycache__/
+.ipynb_checkpoints/
+eda.md
+data/*
+!data/trigger_table_final.csv
