@@ -5,3 +5,4 @@ __pycache__/
 eda.md
 data/*
 !data/trigger_table_final.csv
+!data/marketing_messages_full.csv

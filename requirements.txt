@@ -6,3 +6,5 @@ seaborn
 jupyter
 ipykernel
 python-dotenv
+openai
+tqdm
