@@ -1,0 +1,4 @@
+node_modules/
+dist/
+# Samsung kurumsal fontları — yerel demo içindir, repoya eklenmez
+public/fonts/

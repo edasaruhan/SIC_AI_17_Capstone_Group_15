@@ -1,0 +1,25 @@
+{
+  "name": "innovation-campus-demo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "setup": "npm run data && npm run fonts",
+    "data": "cd .. && .venv/bin/python scripts/build_demo_data.py",
+    "fonts": "mkdir -p public/fonts && for f in SamsungOne-400 SamsungOne-700 SamsungSharpSansBd; do curl -sfL -A Mozilla/5.0 -e https://www.samsung.com/tr/innovation-campus/ https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/fonts/$f.woff2 -o public/fonts/$f.woff2; done",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "recharts": "^3.10.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.1",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.1"
+  }
+}
